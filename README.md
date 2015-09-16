@@ -1,4 +1,4 @@
-# Literature Programming
+# Literate Programming
 
 ## People
 
