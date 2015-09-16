@@ -1,4 +1,4 @@
-# Organization 1
+# Literature Programming
 
 ## People
 
@@ -11,54 +11,25 @@
 
 ## Overview and learning objectives
 
-Students will learn the benefits of project and folder organization,
-and how these enable reproducibility and reusability. They will then
-complete an activity highlighting the structure of data files,
-emphasizing the importance of documenting any changes made. Finally,
-they will bring these two activities together in the context of a
-reproducible project workflow centered around using `knitr` in
-RStudio.
+Students will complete an activity highlighting the structure of data
+files, emphasizing the importance of documenting any changes made.
+They will then learn and apply a literate programming approach to
+cleaning data files in the context of a reproducible project workflow
+centered around using `knitr` in RStudio.
 
 At the begining of the session, students should be able
 
-- to use a spreadsheet program to generate a plot
-- to use a text editor (Word, Google Docs, etc.) to communicate
 - be familiar with Rstudio: Rstudio layout, running R commands, knitr,
   and basic ggplot syntax (from Intro section)
 
 At the end of the session students will be able to
 
-- Evaluate folder and file structure of a project.
-- Recognize common problems that occur in file organization.
-- Be able to identify what plain text is.
-- Demonstrate the benefits of using plain text.
-- Distinguish between input and output files.
-- Integrate file naming standards to projects.
 - Distinguish between a spreadsheet formatted properly for later
   analysis in R and one formatted improperly
 - Be able to recognize common data entry errors and how to handle them
 - Be able to describe the concept of 'raw data' and why it is important
 - Differentiate between manual and programmatic file manipulation and
   know the pros and cons of each
-
-## File organization
-
-### Activity - Forensic Science
-
-Lesson: [01-file-organization](01-file-organization.md)
-
-This section starts with an activity to get the students thinking
-about "excavating" a folder in the future.  It is meant to get the
-students thinking about what file names, file organization, and file
-content and what these can tell us about a project.
-
-### Lecture - File Naming 
-
-Slides can be found here, in Keynote format, in PDF, and as individual
-PNGs (scroll down through the README):
-
-  * [File organization](slides/organization-slides)
-  * [File naming](slides/naming-slides)
 
 ## Documenting data modifications
 
@@ -107,20 +78,9 @@ reports in R.
   Computational Biology Projects." PLoS Computational Biology 5 (7):
   e1000424. doi:[10.1371/journal.pcbi.1000424]
 
-### File naming and organization 
-
-- [File Naming Conventions & Best Practices] (UBC Library, Research
-  Data Management)
-- [File Format Considerations] (UBC Library, Research Data Management)
-- File naming guides and suggestions from
-    - [Minnesota Historical Society](http://www.mnhs.org/preserve/records/electronicrecords/erfnaming.php)
-    - [University of Edinburgh, Records Management](http://www.recordsmanagement.ed.ac.uk/InfoStaff/RMstaff/RMprojects/PP/FileNameRules/Rules.htm)
-- Wikipedia entry on [list of filename extensions]
-- Wikipedia entry on [ISO 8601 standard for dates]
-
 ### Best practices for spreadsheets
 
-- [Good practice guidance on releasing statistics in spreadsheets] (UK Government)
+- [Good practice guidance on releasing statistics in spreadsheets](UK Government)
 
 ## License and Attribution
 
