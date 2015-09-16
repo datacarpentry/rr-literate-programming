@@ -49,8 +49,8 @@ data file in Excel.
 
 ##### Activity 2 - Using R and Rmarkdown to clean and plot data
 
-**Note: could overlap in part with Intro, Activity 2; may require
-  on-the-fly adjustments in response to that.**
+*Note: could overlap in part with Intro, Activity 2; may require
+  on-the-fly adjustments in response to that.*
 
 Students "knit" and modify. Using
 [countryPick4.Rmd](files/lit-prog/countryPick4.Rmd) as a template,
@@ -68,7 +68,7 @@ reports in R.
 
 ## Resources and useful links
 
-### Relevant scientific papers
+#### Relevant scientific papers
 
 - EP White, E Baldridge, ZT Brym, KJ Locey, DJ McGlinn, SR
   Supp (2013) "Nine simple ways to make it easier to (re)use your
@@ -79,11 +79,11 @@ reports in R.
   Computational Biology Projects." PLoS Computational Biology 5 (7):
   e1000424. doi:[10.1371/journal.pcbi.1000424]
 
-### Best practices for spreadsheets
+#### Best practices for spreadsheets
 
 - [Good practice guidance on releasing statistics in spreadsheets](UK Government)
 
-## License and Attribution
+#### License and Attribution
 
 - [Gapminder data](http://www.gapminder.org/data/). [Gapminder data is licensed CC-BY 3.0](https://docs.google.com/document/pub?id=1POd-pBMc5vDXAmxrpGjPLaCSDSWuxX6FLQgq5DhlUhM#h.ul2gu2-uwathz).
 - Processed and subset (population size, life expectancy, GDP per
