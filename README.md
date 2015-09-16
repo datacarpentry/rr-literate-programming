@@ -103,6 +103,7 @@ reports in R.
 [@jennybc]: http://github.com/jennybc
 [@hlapp]: http://github.com/hlapp
 [@iamciera]: http://github.com/iamciera
+[@naupaka]: http://github.com/naupaka
 [File Naming Conventions & Best Practices]: http://researchdata.library.ubc.ca/organize
 [File Format Considerations]: http://researchdata.library.ubc.ca/format/
 [List of filename extensions]: http://en.wikipedia.org/wiki/List_of_file_formats
