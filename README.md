@@ -36,18 +36,18 @@ At the end of the session students will be able to
 
 Lesson: [02-programatic-modification](02-documenting-data-modification.md)
 
-### Activity 1 - Cleaning up data in Excel
+##### Activity 1 - Cleaning up data in Excel
 
 In this section, the students will explore why it is beneficial to do
 programmatic modification by exploring what it takes to clean up a
 data file in Excel.
 
-## Literate programming - R via RStudio 
+#### Literate programming - R via RStudio 
 
 * Lesson: [03-literate-programming](03-literate-programming.md)
 * [Introductory slides](slides/lit-prog-slides)
 
-### Activity 
+##### Activity 2 - Using R and Rmarkdown to clean and plot data
 
 **Note: could overlap in part with Intro, Activity 2; may require
   on-the-fly adjustments in response to that.**
