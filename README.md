@@ -7,17 +7,18 @@
 -  **Ciera Martinez** [@iamciera]
 -  Kristina Riemer kristina.riemer@weecology.org
 -  Courtney Soderberg courtney@cos.io
--  Naupaka Zimmerman naupaka@gmail.com
+-  Naupaka Zimmerman: [@naupaka]
 
 ## Overview and learning objectives
 
-Students will complete an activity highlighting the structure of data
-files, emphasizing the importance of documenting any changes made.
-They will then learn and apply a literate programming approach to
-cleaning data files in the context of a reproducible project workflow
-centered around using `knitr` in RStudio.
+Students will complete an activity highlighting the structure of
+spreadsheet-type data files, emphasizing the importance of documenting
+any changes made. They will then learn and apply a literate
+programming approach to cleaning data files in the context of a
+reproducible project workflow centered around using `knitr` in
+RStudio.
 
-At the begining of the session, students should be able
+At the begining of the session, students should
 
 - be familiar with Rstudio: Rstudio layout, running R commands, knitr,
   and basic ggplot syntax (from Intro section)
@@ -35,7 +36,7 @@ At the end of the session students will be able to
 
 Lesson: [02-programatic-modification](02-documenting-data-modification.md)
 
-### Activity 2 - Cleaning up data in Excel
+### Activity 1 - Cleaning up data in Excel
 
 In this section, the students will explore why it is beneficial to do
 programmatic modification by exploring what it takes to clean up a
