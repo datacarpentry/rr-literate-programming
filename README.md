@@ -3,8 +3,8 @@
 ## People
 
 -  Jennifer Bryan: [@jennybc]
--  Hilmar Lapp: [@hlapp]
--  **Ciera Martinez** [@iamciera]
+-  **Hilmar Lapp**: [@hlapp]
+-  Ciera Martinez [@iamciera]
 -  Kristina Riemer kristina.riemer@weecology.org
 -  Courtney Soderberg courtney@cos.io
 -  Naupaka Zimmerman: [@naupaka]
