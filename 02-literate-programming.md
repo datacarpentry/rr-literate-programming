@@ -16,7 +16,7 @@
 * Produce and modify R knitr reports.
 * Identify intermediary files, and thus which files can be regenerated.
 
-## Activity 03 - Explore a working `knitr` document
+## Activity 02 - Explore a working `knitr` document
 
 Interactive knitr document: [countryPick4.Rmd](files/lit-prog/countryPick4.Rmd).
 

@@ -34,7 +34,7 @@ At the end of the session students will be able to
 
 ## Documenting data modifications
 
-Lesson: [02-programatic-modification](02-documenting-data-modification.md)
+Lesson: [01-programatic-modification](01-documenting-data-modification.md)
 
 ##### Activity 1 - Cleaning up data in Excel
 
@@ -44,7 +44,7 @@ data file in Excel.
 
 #### Literate programming - R via RStudio 
 
-* Lesson: [03-literate-programming](03-literate-programming.md)
+* Lesson: [02-literate-programming](02-literate-programming.md)
 * [Introductory slides](slides/lit-prog-slides)
 
 ##### Activity 2 - Using R and Rmarkdown to clean and plot data

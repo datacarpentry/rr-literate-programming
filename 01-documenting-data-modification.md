@@ -11,7 +11,7 @@
 * Differentiate between manual and programmatic file manipulation and
   know the pros and cons of each.
 
-## Activity 02 - Checking and Cleaning Data
+## Activity 01 - Checking and Cleaning Data
 
 Please download the Excel file called `oceania_uk.xlsx` and open it.
 
