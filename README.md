@@ -49,9 +49,6 @@ data file in Excel.
 
 ##### Activity 2 - Using R and Rmarkdown to clean and plot data
 
-*Note: could overlap in part with Intro, Activity 2; may require
-  on-the-fly adjustments in response to that.*
-
 Students "knit" and modify. Using
 [countryPick4.Rmd](files/lit-prog/countryPick4.Rmd) as a template,
 students learn how to import data, filter to one country, make a plot,
@@ -75,9 +72,6 @@ reports in R.
   data." Ideas in Ecology and Evolution 6(2):
   1–10, 2013. doi:[10.4033/iee.2013.6b.6.f] _(in particular the
   section "Use standard table formats")_
-- WS Noble (2009) "A Quick Guide to Organizing
-  Computational Biology Projects." PLoS Computational Biology 5 (7):
-  e1000424. doi:[10.1371/journal.pcbi.1000424]
 
 #### Best practices for spreadsheets
 
