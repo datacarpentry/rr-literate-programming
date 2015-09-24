@@ -11,43 +11,42 @@
 
 ## Overview and learning objectives
 
-Students will complete an activity highlighting the structure of
-spreadsheet-type data files, emphasizing the importance of documenting
-any changes made. They will then learn and apply a literate
-programming approach to cleaning data files in the context of a
-reproducible project workflow centered around using `knitr` in
-RStudio.
+Students will work through activities highlighting the motivation for
+and value of [literate programming] as a concept, and as its
+implementation in Rmarkdown. Through this, students will get introduced to
+the concepts of executable documentation and automation. Students will
+also learn about best practices for structuring spreadsheet-type data
+files, and the importance of documenting all changes one makes to
+data. Finally, students will be introduced to combining all these
+ideas to create automated, executable, and self-documenting data quality
+ensurance and control reports.
 
 At the begining of the session, students should
-
-- be familiar with Rstudio: Rstudio layout, running R commands, knitr,
-  and basic ggplot syntax (from Intro section)
+- be familiar with Rstudio: Rstudio layout, running R commands, and
+  running knitr.
 
 At the end of the session students will be able to
 
 - Distinguish between a spreadsheet formatted properly for later
-  analysis in R and one formatted improperly
-- Be able to recognize common data entry errors and how to handle them
-- Be able to describe the concept of 'raw data' and why it is important
-- Differentiate between manual and programmatic file manipulation and
-  know the pros and cons of each
+  analysis and one formatted improperly.
+- Recognize and correct common data entry errors.
+- Describe the concept of 'raw data', and its implications for
+  reproducible and sound data management.
+- Apply the concept of literate programming to produce executable
+  documentation of data management and analysis.
 
-## Documenting data modifications
+## Literate Programming - overview and recap
 
-Lesson: [01-programatic-modification](01-documenting-data-modification.md)
+### Overview and recap of key concepts
 
-##### Activity 1 - Cleaning up data in Excel
+* Recap about markdown, Rmarkdown, `knitr`, and virtues of literate
+  programming from the demonstrations in the Intro lesson:
+  [slides](slides/lit-prog-slides)
 
-In this section, the students will explore why it is beneficial to do
-programmatic modification by exploring what it takes to clean up a
-data file in Excel.
+### Activity - Using R and Rmarkdown to clean and plot data
 
-#### Literate programming - R via RStudio 
-
-* Lesson: [02-literate-programming](02-literate-programming.md)
-* [Introductory slides](slides/lit-prog-slides)
-
-##### Activity 2 - Using R and Rmarkdown to clean and plot data
+Objective: through hands-on interaction and modification, develop
+familiarity with Rmarkdown and _knitting_ the output.
 
 Students "knit" and modify. Using
 [countryPick4.Rmd](files/lit-prog/countryPick4.Rmd) as a template,
@@ -62,6 +61,19 @@ illustrate what happens when you knit:
 This section is meant for students to explore the power of writing
 reports in R.
 
+## Documenting data modifications
+
+Lesson: [01-programatic-modification](01-documenting-data-modification.md)
+
+### Activity - Cleaning up data in Excel
+
+Students identify poor and good data formatting practices, and will
+learn the importance of documenting modifications. This will lead to
+making modifications in a self-documenting and executable way.
+
+### Applying literate programming to produce executable documentation
+
+* Lesson: [02-literate-programming](02-literate-programming.md)
 
 ## Resources and useful links
 
@@ -106,3 +118,4 @@ reports in R.
 [10.4033/iee.2013.6b.6.f]: http://dx.doi.org/10.4033/iee.2013.6b.6.f
 [10.1371/journal.pcbi.1000424]: http://dx.doi.org/10.1371/journal.pcbi.1000424
 [CC Zero]: https://creativecommons.org/publicdomain/zero/1.0/
+[literate programming]: https://en.wikipedia.org/wiki/Literate_programming
