@@ -3,8 +3,8 @@
 ## People
 
 -  Jennifer Bryan: [@jennybc]
--  Hilmar Lapp: [@hlapp]
--  **Ciera Martinez** [@iamciera]
+-  **Hilmar Lapp**: [@hlapp]
+-  Ciera Martinez [@iamciera]
 -  Kristina Riemer kristina.riemer@weecology.org
 -  Courtney Soderberg courtney@cos.io
 -  Naupaka Zimmerman: [@naupaka]
@@ -34,7 +34,7 @@ At the end of the session students will be able to
 
 ## Documenting data modifications
 
-Lesson: [02-programatic-modification](02-documenting-data-modification.md)
+Lesson: [01-programatic-modification](01-documenting-data-modification.md)
 
 ##### Activity 1 - Cleaning up data in Excel
 
@@ -44,13 +44,10 @@ data file in Excel.
 
 #### Literate programming - R via RStudio 
 
-* Lesson: [03-literate-programming](03-literate-programming.md)
+* Lesson: [02-literate-programming](02-literate-programming.md)
 * [Introductory slides](slides/lit-prog-slides)
 
 ##### Activity 2 - Using R and Rmarkdown to clean and plot data
-
-*Note: could overlap in part with Intro, Activity 2; may require
-  on-the-fly adjustments in response to that.*
 
 Students "knit" and modify. Using
 [countryPick4.Rmd](files/lit-prog/countryPick4.Rmd) as a template,
@@ -75,9 +72,6 @@ reports in R.
   data." Ideas in Ecology and Evolution 6(2):
   1–10, 2013. doi:[10.4033/iee.2013.6b.6.f] _(in particular the
   section "Use standard table formats")_
-- WS Noble (2009) "A Quick Guide to Organizing
-  Computational Biology Projects." PLoS Computational Biology 5 (7):
-  e1000424. doi:[10.1371/journal.pcbi.1000424]
 
 #### Best practices for spreadsheets
 
