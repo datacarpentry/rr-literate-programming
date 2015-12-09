@@ -1,14 +1,5 @@
 # Literate Programming
 
-## People
-
--  Jennifer Bryan: [@jennybc]
--  **Hilmar Lapp**: [@hlapp]
--  Ciera Martinez [@iamciera]
--  Kristina Riemer kristina.riemer@weecology.org
--  Courtney Soderberg courtney@cos.io
--  Naupaka Zimmerman: [@naupaka]
-
 ## Overview and learning objectives
 
 Students will work through activities highlighting the motivation for
@@ -89,7 +80,13 @@ making modifications in a self-documenting and executable way.
 
 - [Good practice guidance on releasing statistics in spreadsheets](UK Government)
 
-#### License and Attribution
+## People and credits
+
+This lesson was first created as a part of the [Organization1 lesson] at the [1. Reproducible Science Curriculum Hackathon], and was later split out into its own lesson. The corresponding author is **Hilmar Lapp ([@hlapp])**. See the commit log for other contributors.
+
+Please post feedback and issues with the lesson on the repository's issue tracker. For instructor questions about teaching this lesson, you can also contact the corresponding author directly.
+
+## License and Attribution
 
 - [Gapminder data](http://www.gapminder.org/data/). [Gapminder data is licensed CC-BY 3.0](https://docs.google.com/document/pub?id=1POd-pBMc5vDXAmxrpGjPLaCSDSWuxX6FLQgq5DhlUhM#h.ul2gu2-uwathz).
 - Processed and subset (population size, life expectancy, GDP per
@@ -105,17 +102,9 @@ making modifications in a self-documenting and executable way.
 - All other lesson material is dedicated to the public domain under
   the [CC Zero] waiver.
 
-
-[@jennybc]: http://github.com/jennybc
 [@hlapp]: http://github.com/hlapp
-[@iamciera]: http://github.com/iamciera
-[@naupaka]: http://github.com/naupaka
-[File Naming Conventions & Best Practices]: http://researchdata.library.ubc.ca/organize
-[File Format Considerations]: http://researchdata.library.ubc.ca/format/
-[List of filename extensions]: http://en.wikipedia.org/wiki/List_of_file_formats
-[ISO 8601 standard for dates]: http://en.wikipedia.org/wiki/ISO_8601
-[Good practice guidance on releasing statistics in spreadsheets]: https://gss.civilservice.gov.uk/wp-content/uploads/2012/12/Releasing-statistics-in-spreadsheets-Good-practice-guidance.pdf
+[1. Reproducible Science Curriculum Hackathon]: https://github.com/Reproducible-Science-Curriculum/Reproducible-Science-Hackathon-Dec-08-2014
+[Organization1 lesson]: https://github.com/Reproducible-Science-Curriculum/rr-organization1
 [10.4033/iee.2013.6b.6.f]: http://dx.doi.org/10.4033/iee.2013.6b.6.f
-[10.1371/journal.pcbi.1000424]: http://dx.doi.org/10.1371/journal.pcbi.1000424
 [CC Zero]: https://creativecommons.org/publicdomain/zero/1.0/
 [literate programming]: https://en.wikipedia.org/wiki/Literate_programming
