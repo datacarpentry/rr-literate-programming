@@ -1,0 +1,50 @@
+.codesample {
+  font-size: 0.65em;
+  line-height: 105%;
+  white-space: pre-wrap;
+}
+
+.code-columns {
+  margin-top: 0.7em;
+  display: flex;
+}
+
+.right-column {
+  width: 49%;
+  font-size: 80%;
+  margin-left: 0.3em;
+  display: block;
+}
+
+.right-column img {
+  max-width: 100%;
+}
+
+.right-column h2 {
+  font-size: 120%;
+}
+
+.right-column p {
+  margin-bottom: 0.5em;
+}
+
+.right-column blockquote {
+  padding-left: 0.4em;
+  border-left: 6px solid #dddddd;
+  color: #999999;
+}
+
+.right-column pre {
+  left: 0;
+  white-space: pre-wrap;
+  padding-left: 10px;
+  margin-bottom: 10px;
+  background-color: #f0f0f0;
+  border: 1px solid #aaaaaa;
+}
+
+.right-column pre.prettyprint {
+  background-color: #e0e0e0;
+  white-space: pre-wrap;
+}
+
