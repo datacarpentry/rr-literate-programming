@@ -1,7 +1,7 @@
-# Literate programming 
+# Literate programming
 
 ## Pre-requisites
-- Familarity with RStudio enviroment
+- Familiarity with RStudio enviroment
 - Knowledge of markdown and Rmarkdown syntax
 
 ## Learning Objectives
@@ -12,15 +12,13 @@
 * Relate literate programming to reproducible generation of scientific
   figures and analysis results.
 * Recognize benefits of and opportunities for applying literate
-  programming 
+  programming
 * Produce and modify R knitr reports.
 * Identify intermediary files, and thus which files can be regenerated.
 
 ## Activity 02 - Explore a working `knitr` document
 
 Interactive knitr document: [countryPick4.Rmd](files/lit-prog/countryPick4.Rmd).
-
-**Estimated total time**: 1 hour 25 min
 
 ### Introduction
 
@@ -111,7 +109,7 @@ Another popular option is [Github](http://github.com), which allows
 the publication and hosting of `.md` files for free. Github also
 provides the power of version control through Git.
 
-### Troubleshooting 
+### Troubleshooting
 
 Make sure RStudio and the `rmarkdown` package (and its dependencies)
 are up-to-date. In case of catastrophic failure to render R Markdown,
@@ -140,14 +138,14 @@ run in full even if there are errors, i.e. turn `foo.Rmd` into
 
 Check whether your working directory is set correctly. Drop these
 commands into R chunks to check the above: `getwd()` will display
-working directory at run time. 
+working directory at run time.
 
 [Don’t try to change working directory within an R Markdown document](https://github.com/yihui/knitr/blob/master/FAQ.md). And
 don’t be in a hurry to create a complicated sub-directory
 structure. RStudio/knitr/rmarkdown (which bring you the “Knit HTML”
 button) are rather opinionated about the working directory being set
 to the `.Rmd` file’s location and about all files living together in
-one big happy directory. 
+one big happy directory.
 
 ## Resources
 

@@ -1,14 +1,5 @@
 # Literate Programming
 
-## People
-
--  Jennifer Bryan: [@jennybc]
--  **Hilmar Lapp**: [@hlapp]
--  Ciera Martinez [@iamciera]
--  Kristina Riemer kristina.riemer@weecology.org
--  Courtney Soderberg courtney@cos.io
--  Naupaka Zimmerman: [@naupaka]
-
 ## Overview and learning objectives
 
 Students will work through activities highlighting the motivation for
@@ -35,9 +26,7 @@ At the end of the session students will be able to
 - Apply the concept of literate programming to produce executable
   documentation of data management and analysis.
 
-## Literate Programming - overview and recap
-
-### Overview and recap of key concepts
+## Overview and recap
 
 * Recap about markdown, Rmarkdown, `knitr`, and virtues of literate
   programming from the demonstrations in the Intro lesson:
@@ -89,27 +78,26 @@ making modifications in a self-documenting and executable way.
 
 - [Good practice guidance on releasing statistics in spreadsheets](UK Government)
 
-#### License and Attribution
+### Data
 
-- [Gapminder data](http://www.gapminder.org/data/). [Gapminder data is licensed CC-BY 3.0](https://docs.google.com/document/pub?id=1POd-pBMc5vDXAmxrpGjPLaCSDSWuxX6FLQgq5DhlUhM#h.ul2gu2-uwathz).
+- [Gapminder data](http://www.gapminder.org/data/)
 - Processed and subset (population size, life expectancy, GDP per
   capita; only every 5 years only starting 1952, only complete records)
   [Gapminder data as R package](https://github.com/jennybc/gapminder). The [data-raw](https://github.com/jennybc/gapminder/tree/master/data-raw) sub-directory reveals the journey from Gapminder.org's Excel workbooks to increasingly clean and tidy data.
-    - clean dataset can be located in R in the following way (after
+- clean dataset can be located in R in the following way (after
       installing the package):
 
         ```R
         pathToTsv <- system.file("gapminder.tsv", package = "gapminder")
         ```
 
-- All other lesson material is dedicated to the public domain under
-  the [CC Zero] waiver.
+## People and credits
 
+  This lesson was first created at the [1. Reproducible Science Curriculum Hackathon]. The corresponding author is **Hilmar Lapp**: [@hlapp]. See the commit log for other contributors.
 
-[@jennybc]: http://github.com/jennybc
+  Please post feedback and issues with the lesson on the repository's issue tracker. For instructor questions about teaching this lesson, you can also contact the corresponding author directly.
+
 [@hlapp]: http://github.com/hlapp
-[@iamciera]: http://github.com/iamciera
-[@naupaka]: http://github.com/naupaka
 [File Naming Conventions & Best Practices]: http://researchdata.library.ubc.ca/organize
 [File Format Considerations]: http://researchdata.library.ubc.ca/format/
 [List of filename extensions]: http://en.wikipedia.org/wiki/List_of_file_formats
@@ -119,3 +107,4 @@ making modifications in a self-documenting and executable way.
 [10.1371/journal.pcbi.1000424]: http://dx.doi.org/10.1371/journal.pcbi.1000424
 [CC Zero]: https://creativecommons.org/publicdomain/zero/1.0/
 [literate programming]: https://en.wikipedia.org/wiki/Literate_programming
+[1. Reproducible Science Curriculum Hackathon]: https://github.com/Reproducible-Science-Curriculum/Reproducible-Science-Hackathon-Dec-08-2014
