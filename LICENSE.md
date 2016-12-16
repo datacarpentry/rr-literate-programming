@@ -1,4 +1,3 @@
-
 [Gapminder data](http://www.gapminder.org/data/) is licensed [CC-BY 3.0](https://docs.google.com/document/pub?id=1POd-pBMc5vDXAmxrpGjPLaCSDSWuxX6FLQgq5DhlUhM#h.ul2gu2-uwathz).
 
 All other lesson material is dedicated to the public domain under the CC Zero waiver.
