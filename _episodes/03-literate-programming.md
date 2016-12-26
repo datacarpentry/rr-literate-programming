@@ -12,9 +12,9 @@ keypoints:
 - "`RMarkdown` and `knitr` are powerful tools."
 - "It all comes together very nicely"
 output:  
-      html_document: 
-        keep_md: yes
+      html_document
 ---
+
 > ## 2.  Bring it all together
 > - Contrast literate programming with stand-alone scripts and stand-alone documentation.
 > - Relate literate programming to reproducible generation of scientific figures and analysis results.

@@ -11,9 +11,9 @@ keypoints:
 - "Keep raw data read only."
 - "Manipulate data in a reproducible manner"
 output:  
-      html_document: 
-        keep_md: yes
+      html_document
 ---
+
 > ## Prerequisites
 > Installation of R and RStudio:
 > - Download R from [CRAN](https://cran.r-project.org/)
@@ -25,6 +25,7 @@ output:
 This section is broken down into two sections:
 1. **Data manipulation**
 1. **Literate programming**
+1. **Explore a working knitr document**
 
 > ## 1. Documenting data modifications
 > - Distinguish between a spreadsheet formatted properly for later analysis in `R` and one formatted improperly.
