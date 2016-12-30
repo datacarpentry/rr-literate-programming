@@ -157,11 +157,11 @@ head(x)
 ```
 
 ```
-## [1]  2.09243473 -2.09679159 -2.83122013  0.93894639 -0.04567465  0.34814887
+## [1]  1.1484081 -0.4728421 -1.3021346  0.6378730  0.1637764 -0.9265482
 ```
 
 
-`knitr` offers a lot of control over representing different types of output. We can also have inline `R` expressions computed on the fly. The mean $\bar{x} = \frac{1}{n} \sum_{i=1}^{n} x_{i}$ of the 1000 random variates we generated is 0.023. This figure is computed on-the-fly as well. No more copy-paste, including for figures:
+`knitr` offers a lot of control over representing different types of output. We can also have inline `R` expressions computed on the fly. The mean $\bar{x} = \frac{1}{n} \sum_{i=1}^{n} x_{i}$ of the 1000 random variates we generated is -0.047. This figure is computed on-the-fly as well. No more copy-paste, including for figures:
 
 
 ```r
@@ -179,11 +179,11 @@ head(x)
 ```
 
 ```
-## [1]  0.3708563 -0.5090251 -0.8734715 -1.4969929  1.6407819 -1.0947855
+## [1] -0.4976453 -1.9193406  0.6402454 -0.5109245 -0.6097928  0.9545458
 ```
 
 
-`knitr` offers a lot of control over representing different types of output. We can also have inline R expressions computed on the fly. The mean $\bar{x} = \frac{1}{n} \sum_{i=1}^{n} x_{i}$ of the 1000 random variates we generated is 0.005. This figure is computed on-the-fly as well. No more copy-paste, including for figures:
+`knitr` offers a lot of control over representing different types of output. We can also have inline R expressions computed on the fly. The mean $\bar{x} = \frac{1}{n} \sum_{i=1}^{n} x_{i}$ of the 1000 random variates we generated is -0.022. This figure is computed on-the-fly as well. No more copy-paste, including for figures:
 
 
 ```r
@@ -204,10 +204,10 @@ head(x)
 ```
 
 ```
-## [1]  1.2307257 -1.8706574  0.3957057 -0.2791362 -0.1859763  0.3200734
+## [1]  0.7195432 -0.6621163 -1.1996448 -1.2400046 -0.0340013  0.9846131
 ```
 
-`knitr` offers a lot of control over representing different types of output. We can also have inline R expressions computed on the fly. The mean $\bar{x} = \frac{1}{n} \sum_{i=1}^{n} x_{i}$ of the 1000 random variates we generated is -0.021. This figure is computed on-the-fly as well. No more copy-paste, including for figures:
+`knitr` offers a lot of control over representing different types of output. We can also have inline R expressions computed on the fly. The mean $\bar{x} = \frac{1}{n} \sum_{i=1}^{n} x_{i}$ of the 1000 random variates we generated is 0. This figure is computed on-the-fly as well. No more copy-paste, including for figures:
 
 
 ```r
@@ -217,7 +217,7 @@ plot(density(x))
 <img src="figure/sec_8-1.png" title="plot of chunk sec_8" alt="plot of chunk sec_8" style="display: block; margin: auto;" />
 
 
-This is an `RMarkdown` document. ```{r} x <- rnorm(1000) head(x) ``` `knitr` offers a lot of control over representing different types of output. We can also have inline R expressions computed on the fly. The mean $\bar{x} = \frac{1}{n} \sum_{i=1}^{n} x_{i}$ of the 1000 random variates we generated is -0.021. No more copy-paste, including for figures: ```{r} plot(density(x)) ```
+This is an `RMarkdown` document. ```{r} x <- rnorm(1000) head(x) ``` `knitr` offers a lot of control over representing different types of output. We can also have inline R expressions computed on the fly. The mean $\bar{x} = \frac{1}{n} \sum_{i=1}^{n} x_{i}$ of the 1000 random variates we generated is 0. No more copy-paste, including for figures: ```{r} plot(density(x)) ```
 
 
 ## Rendering can be automated is thus repeatable
