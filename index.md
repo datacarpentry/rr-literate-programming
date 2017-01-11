@@ -2,9 +2,11 @@
 layout: lesson
 root: .
 ---
-FIXME: home page introduction
+This is the lesson on literate programming for reproducible research with `R`.
 
 > ## Prerequisites
+> You will need to install
+> - `R`
+> - `RStudio`
 >
-> FIXME
 {: .prereq}
