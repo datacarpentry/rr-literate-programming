@@ -13,8 +13,8 @@ keypoints:
 output:  
       html_document
 ---
-```{r setup, include = FALSE, fig.align = "center"}
-knitr::opts_chunk$set(echo = TRUE, fig.align = "center")
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(echo = TRUE, fig.align = "center", fig.path = "../figure/")
 ```
 > ## Prerequisites
 > Installation of R and RStudio:
