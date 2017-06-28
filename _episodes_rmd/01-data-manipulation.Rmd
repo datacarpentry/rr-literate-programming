@@ -5,19 +5,23 @@ exercises: 10
 questions:
 - "How should we manipulate data?"
 objectives:
-- "Learn proper dat formatting"
+- "Learn tidy data formatting"
 - "Learn to recognize data entry errors"
 keypoints:
 - "Keep raw data read only."
 - "Manipulate data in a reproducible manner"
-output:  
+output:
       html_document
 ---
+
 ```{r setup, include = FALSE}
 knitr::opts_chunk$set(echo = TRUE, fig.align = "center", fig.path = "../figure/")
 ```
+
 > ## Prerequisites
+>
 > Installation of R and RStudio:
+>
 > - Download R from [CRAN](https://cran.r-project.org/)
 > - Download [RStudio](https://www.rstudio.com/products/rstudio/download/)
 {: .prereq}
