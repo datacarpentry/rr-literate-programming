@@ -12,14 +12,16 @@ keypoints:
 - "`RMarkdown` and `knitr` are powerful tools."
 - "Output can be rendered in many formats."
 - "You don't need to know HTML!"
-output:  
+output:
       html_document
 ---
 
 ```{r setup, include = FALSE}
 knitr::opts_chunk$set(echo = TRUE, fig.align = "center", fig.path = "../figure/")
 ```
+
 > ## 2. Literate programming
+>
 > - Organize your work
 > - make work more pleasant for yourself? (less tedium, less manual, less ...)
 > - reduce friction for collaboration?
@@ -36,6 +38,7 @@ Process, packaging, and presentation are often the weak links in the chain.
 ## Markdown
 
 ### What is Markdown?
+
 - `Markdown` is a particular type of markup language. Markup languages are designed to produce documents from plain text.
 - You may be familiar with `LaTeX`, another (though less human friendly) text markup language.
 - Tools render markdown to different formats (for example, HTML/pdf/Word).
@@ -43,11 +46,14 @@ Process, packaging, and presentation are often the weak links in the chain.
 
 Adapted from [Carson Sievert's markdown slides](http://cpsievert.github.io/slides/markdown/#/1)
 
+
 ### Markdown enables fast publication to the web
+
 - **Markdown** Easy to write and read in an editor.
 - **HTML** Easy to publish and read on web.
 
-### Markdown versus HTML code {.code-columns}
+### Markdown versus HTML code
+
 ~~~
 This is a Markdown document.
 
@@ -103,6 +109,7 @@ body {
 <pre><code>x <- 3 * 4
 </code></pre>
 ~~~
+
 
 ![](../media/smiley-face-clipart.png) ![](../media/frowny-face-clipart.png)
 
