@@ -5,37 +5,44 @@ exercises: 10
 questions:
 - "How should we manipulate data?"
 objectives:
-- "Learn proper dat formatting"
+- "Learn tidy data formatting"
 - "Learn to recognize data entry errors"
 keypoints:
 - "Keep raw data read only."
 - "Manipulate data in a reproducible manner"
-output:  
+output:
       html_document
 ---
 
+
+
 > ## Prerequisites
+>
 > Installation of R and RStudio:
+>
 > - Download R from [CRAN](https://cran.r-project.org/)
 > - Download [RStudio](https://www.rstudio.com/products/rstudio/download/)
 {: .prereq}
 
-## Literate Programming
+## Documenting Data Modifications
 
-This section is broken down into two sections:
+This section is broken down into three sections:
+
 1. **Data manipulation**
 1. **Literate programming**
 1. **Explore a working knitr document**
 
 > ## 1. Documenting data modifications
+>
 > - Distinguish between a spreadsheet formatted properly for later analysis in `R` and one formatted improperly.
 > - Be able to recognize common data entry errors and how to handle them.
 > - Be able to describe the concept of 'raw data' and why it is important.
 > - Differentiate between manual and programmatic file manipulation and know the pros and cons of each.
 {: .objectives}
 
-## Activity 1
-Please download the Excel file called `oceania_uk.xlsx` and open it.
+### Activity 1
+
+Please download the Excel file called [`oceania_uk.xlsx`]({{ site.baseurl }}/files/prog-mod/oceania-uk.xlsx) and open it.
 
 Depending on what type of science you do, data may come from instruments, online databases, or transcribed from field or lab notebooks into spreadsheets. Thinking about how to format your data in those spreadsheets to ensure that it is machine readable (that is, easily parseable by an algorithm or script) and well documented for humans is important.
 
