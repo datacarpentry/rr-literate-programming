@@ -11,7 +11,7 @@ objectives:
 keypoints:
 - "`RMarkdown` and `knitr` are powerful tools."
 - "It all comes together very nicely"
-output:  
+output:
       html_document
 ---
 
@@ -23,7 +23,7 @@ output:
 > - Identify intermediary files, and thus which files can be regenerated.
 {: .objectives}
 
-#### Interactive knitr document: [countryPick4.Rmd](https://github.com/datacarpentry/rr-literate-programming/blob/gh-pages/files/lit-prog/countryPick4.Rmd).
+#### Interactive knitr document: [countryPick4.Rmd](https://raw.githubusercontent.com/datacarpentry/rr-literate-programming/gh-pages/files/lit-prog/countryPick4.Rmd).
 
 ## Introduction
 
