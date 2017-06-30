@@ -54,7 +54,11 @@ Adapted from [Carson Sievert's markdown slides](http://cpsievert.github.io/slide
 
 ### Markdown versus HTML code
 
-~~~
+<div class="row">
+
+<div class="col-md-6">
+
+<pre>
 This is a Markdown document.
 
 ## Medium header <!-- header 2, actually -->
@@ -80,40 +84,54 @@ $$
 \end{cases}
 \end{equation*}
 $$
+</pre>
+
+<img src="{{ base.site }}/media/smiley-face-clipart.png"/>
+
+</div> <!-- end column left -->
 
 
-<!DOCTYPE html>
-<html>
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-<title>Title</title>
-<!-- MathJax scripts -->
-<script type="text/javascript" src="..."></script>
-<style type="text/css">
+<div class="col-md-6">
+
+<pre>
+
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;meta http-equiv="Content-Type" content="text/html; charset=utf-8"/&gt;
+&lt;title&gt;Title&lt;/title&gt;
+&lt;!-- MathJax scripts --&gt;
+&lt;script type="text/javascript" src="..."&gt;&lt;/script&gt;
+&lt;style type="text/css"&gt;
 body {
    font-family: Helvetica, arial, sans-serif;
    font-size: 14px;
 ...
-</style>
-</head>
-<body>
-<p>This is a Markdown document.</p>
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;p&gt;This is a Markdown document.&lt;/p&gt;
 
-<h2>Medium header</h2>
+&lt;h2&gt;Medium header&lt;/h2&gt;
 
-<p>It's easy to do <em>italics</em> or <strong>make things bold</strong>.</p>
+&lt;p&gt;It's easy to do &lt;em&gt;italics&lt;/em&gt; or &lt;strong&gt;make things bold&lt;/strong&gt;.&lt;/p&gt;
 
-<blockquote><p>All models are wrong, but some are...</p></blockquote>
-<p>Code block below. Just affects formatting here.</p>
+&lt;blockquote&gt;&lt;p&gt;All models are wrong, but some are...&lt;/p&gt;&lt;/blockquote&gt;
 
-<pre><code>x <- 3 * 4
-</code></pre>
-~~~
+&lt;p&gt;Code block below. Just affects formatting here.&lt;/p&gt;
 
+&lt;pre&gt;&lt;code&gt;x &lt;- 3 * 4&lt;/code&gt;&lt;/pre&gt;
 
-![](../media/smiley-face-clipart.png) ![](../media/frowny-face-clipart.png)
+</pre>
+ <img src="{{base.site}}/media/frowny-face-clipart.png"/>
+</div> <!-- end column right -->
+</div> <!-- end 2-column row -->
 
-### Markdown versus rendered HTML {.code-columns}
+### Markdown versus rendered HTML
+
+<div class="row">
+<div class="col-md-6">
+<pre>
 
 This is a Markdown document.
 
@@ -129,7 +147,6 @@ Code block below. Just affects formatting here.
 x <- 3 * 4
 ```
 
-
 I can haz equations. Inline equations, such as the average is computed as $\frac{1}{n} \sum_{i=1}^{n} x_{i}$. Or display equations like this:
 
 $$
@@ -140,71 +157,81 @@ $$
 \end{cases}
 \end{equation*}
 $$
-This is a Markdown document.
+
+</pre>
+
+<img src="{{ base.site }}/media/smiley-face-clipart.png"/>
+
+</div>
+
+<div class="col-md-6">
+
+```{r knit2html, results="asis", echo=FALSE}
+cat(markdown::markdownToHTML(
+ text =
+  "This is a Markdown document.
 
 ## Medium header
 
-It's easy to do *italics* or **make things bold**. > All models are wrong, but some are useful. An approximate answer to the right problem is worth a good deal more than an exact answer to an approximate problem. Code block below. Just affects formatting here. ``` x <- 3 * 4 ``` I can haz equations. Inline equations, such as the average is computed as $\frac{1}{n} \sum_{i=1}^{n} x_{i}$. Or display equations like this: $$ \begin{equation*} |x|= \begin{cases} x & \text{if $x\ge 0$,} \\\\ -x &\text{if $x\lt 0$.} \end{cases} \end{equation*} $$
+It's easy to do *italics* or **make things bold**.
 
-![](../media/smiley-face-clipart.png) ![](../media/smiley-face-clipart.png)
+> All models are wrong, but some are useful. An approximate answer to the right problem is worth a good deal more than an exact answer to an approximate problem.
+
+Code block below. Just affects formatting here.
+
+``` x <- 3 * 4 ```
+
+I can haz equations. Inline equations, such as the average is computed as $\\frac{1}{n} \\sum_{i=1}^{n} x_{i}$.
+
+  Or display equations like this:
+
+  $$
+  \\begin{equation*}
+	|x|=
+         \\begin{cases}
+	  x & \\text{if $x\\ge 0$,} \\\\
+	  -x & \\text{if $x\\lt 0$.}
+        \\end{cases}
+   \\end{equation*}
+   $$
+", fragment.only=TRUE))
+```
+<img src="{{ base.site }}/media/smiley-face-clipart.png"/>
+</div>
+</div>
+
 
 ## Markdown can be rendered to multiple formats
-- `pandoc` is a swiss-army knife tool for conversion`
+
+- `pandoc` is a Swiss-army knife tool for conversion`
+
 ![](../media/pandoc-diagram.jpg)
 
-## `RMarkdown`
 
-`RMarkdown` is rendered to Markdown {.code-columns}
 
-This is an R Markdown document.
+## RMarkdown
 
-```{r sec_3}
-x <- rnorm(1000)
-head(x)
+`RMarkdown` is rendered to Markdown. The strength of RMarkdown, is that with an easy syntax, it is possible to mix ideas, code, and generated results seamlessly.
+
+
+### Input
+
+````
+`r paste(readLines("rmd_example.Rmd"), collapse="\n")`
+````
+
+
+### Output
+
+```{r, echo=FALSE, results="asis"}
+void <- knit("rmd_example.Rmd", output = "rmd_example.md", quiet = TRUE)
+cat(markdown::markdownToHTML(file = "rmd_example.md", fragment.only = TRUE), sep = "\n")
 ```
 
-
-`knitr` offers a lot of control over representing different types of output. We can also have inline `R` expressions computed on the fly. The mean $\bar{x} = \frac{1}{n} \sum_{i=1}^{n} x_{i}$ of the `r length(x)` random variates we generated is `r round(mean(x), 3)`. This figure is computed on-the-fly as well. No more copy-paste, including for figures:
-
-```{r sec_4}
-plot(density(x))
-```
-
-This is an `RMarkdown` document.
-
-```{r sec_5}
-x <- rnorm(1000)
-head(x)
-```
-
-
-`knitr` offers a lot of control over representing different types of output. We can also have inline R expressions computed on the fly. The mean $\bar{x} = \frac{1}{n} \sum_{i=1}^{n} x_{i}$ of the `r length(x)` random variates we generated is `r round(mean(x), 3)`. This figure is computed on-the-fly as well. No more copy-paste, including for figures:
-
-```{r sec_6}
-plot(density(x))
-```
-
-
-### Ideas, code, and generated results tied together {.code-columns}
-
-This is an `RMarkdown` document.
-
-```{r sec_7}
-x <- rnorm(1000)
-head(x)
-```
-
-`knitr` offers a lot of control over representing different types of output. We can also have inline R expressions computed on the fly. The mean $\bar{x} = \frac{1}{n} \sum_{i=1}^{n} x_{i}$ of the `r length(x)` random variates we generated is `r round(mean(x), 3)`. This figure is computed on-the-fly as well. No more copy-paste, including for figures:
-
-```{r sec_8}
-plot(density(x))
-```
-
-
-This is an `RMarkdown` document. ```{r} x <- rnorm(1000) head(x) ``` `knitr` offers a lot of control over representing different types of output. We can also have inline R expressions computed on the fly. The mean $\bar{x} = \frac{1}{n} \sum_{i=1}^{n} x_{i}$ of the `r length(x)` random variates we generated is `r round(mean(x), 3)`. No more copy-paste, including for figures: ```{r} plot(density(x)) ```
 
 
 ## Rendering can be automated is thus repeatable
+
 ![](../media/knitrButton-screenshot.png)
 
 
@@ -218,6 +245,7 @@ From the command line:
 
 
 ## Summary
+
 - `RMarkdown` enables ideas and questions, the code that implements them, and the results generated by the implementation, to all stay together.
 - `RMarkdown` toolchain allows automated, repeatable rendering
   - for publishing to the web and viewing through a browser
