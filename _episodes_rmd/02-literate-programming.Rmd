@@ -86,7 +86,7 @@ $$
 $$
 </pre>
 
-<img src="{{ base.site }}/media/smiley-face-clipart.png"/>
+<img src="../media/smiley-face-clipart.png"/>
 
 </div> <!-- end column left -->
 
@@ -123,7 +123,7 @@ body {
 &lt;pre&gt;&lt;code&gt;x &lt;- 3 * 4&lt;/code&gt;&lt;/pre&gt;
 
 </pre>
- <img src="{{base.site}}/media/frowny-face-clipart.png"/>
+ <img src="../media/frowny-face-clipart.png"/>
 </div> <!-- end column right -->
 </div> <!-- end 2-column row -->
 
@@ -160,7 +160,7 @@ $$
 
 </pre>
 
-<img src="{{ base.site }}/media/smiley-face-clipart.png"/>
+<img src="../media/smiley-face-clipart.png"/>
 
 </div>
 
@@ -196,7 +196,7 @@ I can haz equations. Inline equations, such as the average is computed as $\\fra
    $$
 ", fragment.only=TRUE))
 ```
-<img src="{{ base.site }}/media/smiley-face-clipart.png"/>
+<img src="../media/smiley-face-clipart.png"/>
 </div>
 </div>
 
