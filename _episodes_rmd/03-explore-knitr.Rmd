@@ -42,7 +42,7 @@ In this lesson we are going to use `RStudio` to combine `R` code, markdown, and 
 
 Open [countryPick4.Rmd](https://github.com/datacarpentry/rr-literate-programming/blob/gh-pages/files/lit-prog/countryPick4.Rmd). This is a report exploring population size of four countries.
 
-Save this document with a new filename. The filename should end in `.Rmd` or `.Rmd`. Use what you have learned from file naming to give an appropriate new name to this report.
+Save this document with a new filename. The filename should end in `.Rmd`. Use what you have learned from file naming to give an appropriate new name to this report.
 
 **Goal**: Make the report unique by choosing four new countries. Explore a few countries and try to find a combination that shows you something unique about the data. Read through report while running each of the code chunks.
 
