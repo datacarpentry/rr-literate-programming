@@ -75,7 +75,7 @@ pathToTsv <- system.file("gapminder.tsv", package = "gapminder")
 [@hlapp]: http://github.com/hlapp
 [1. Reproducible Science Curriculum Hackathon]: https://github.com/Reproducible-Science-Curriculum/Reproducible-Science-Hackathon-Dec-08-2014
 [Organization1 lesson]: https://github.com/Reproducible-Science-Curriculum/rr-organization1
-[10.4033/iee.2013.6b.6.f]: http://dx.doi.org/10.4033/iee.2013.6b.6.f
+[10.4033/iee.2013.6b.6.f]: https://doi.org/10.4033/iee.2013.6b.6.f
 [CC Zero]: https://creativecommons.org/publicdomain/zero/1.0/
 [literate programming]: https://en.wikipedia.org/wiki/Literate_programming
 [1. Reproducible Science Curriculum Hackathon]: https://github.com/Reproducible-Science-Curriculum/Reproducible-Science-Hackathon-Dec-08-2014
